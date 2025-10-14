@@ -46,7 +46,7 @@ export default function Page() {
   const { days, hours, minutes, seconds } = msToDHMS(remainingMs);
 
   return (
-    <div className="min-h-dvh bg-black flex items-center justify-center">
+    <div className="min-h-dvh fixed inset-0 bg-black flex items-center justify-center">
       <div className="text-center red font-mono">
         <div
           className="leading-none seg tracking-tight "
