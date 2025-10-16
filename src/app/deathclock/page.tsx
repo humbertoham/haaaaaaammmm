@@ -1,6 +1,6 @@
 
 import DeathClock from "./deathclock";
-
+import "./deathclock.css";
 export const metadata = {
   title: "death clock",
   description: "://",
@@ -29,7 +29,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <div className="deathclock-page">
-
-   <DeathClock /> </div>;
+  return <DeathClock />;
 }
