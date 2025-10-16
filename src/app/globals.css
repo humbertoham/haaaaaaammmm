@@ -27,8 +27,8 @@
   color: #d01010e3;
 }
 
-html,
-body {
+.deathclock-page html,
+.deathclock-page body {
   background-color: black;
   height: 100%;
   width: 100%;
@@ -37,8 +37,8 @@ body {
   overflow-x: hidden;
 }
 
-#root, /* or your Next.js root div like __next */
-#__next {
+
+.deathclock-page {
   background-color: black;
   min-height: 100dvh;
   width: 100%;

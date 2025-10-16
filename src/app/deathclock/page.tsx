@@ -29,5 +29,7 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <DeathClock />;
+  return <div className="deathclock-page">
+
+   <DeathClock /> </div>;
 }
