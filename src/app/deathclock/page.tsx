@@ -1,6 +1,5 @@
 
 import DeathClock from "./deathclock";
-import "./deathclock.css";
 export const metadata = {
   title: "death clock",
   description: "://",
